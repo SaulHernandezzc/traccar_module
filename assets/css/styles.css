@@ -1,0 +1,30 @@
+/* Dashboard Principal */
+.traccar-dashboard {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.vehicle-status-card {
+    border-left: 4px solid;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.status-active { border-color: #28a745; }
+.status-blocked { border-color: #dc3545; }
+
+/* Tablas */
+.traccar-table th {
+    background: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* Alertas */
+.traccar-alert {
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.alert-warning { background: #fff3cd; }
+.alert-danger { background: #f8d7da; }
